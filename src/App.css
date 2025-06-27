@@ -17,6 +17,7 @@ body {
 
 .app {
   width: 100%;
+  max-width: 1200;
   height: 100vh;
   padding: 2rem;
  
