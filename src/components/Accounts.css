@@ -1,0 +1,36 @@
+.accounts-section {
+    width: 100%;
+    margin: 2rem 0;
+    max-width: fit-content;
+}
+
+.accounts-title{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #f2f3f3;
+}
+
+.accounts-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+
+.account-card {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.account-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.account-card p {
+  margin: 0.3rem 0;
+  font-size: 1.2rem;
+  color: #000000;
+}
