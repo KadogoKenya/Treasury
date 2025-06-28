@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css'
 import './App.css'
 import useTreasuryData from '../useTreasuryData';
 import Accounts from './components/Accounts';

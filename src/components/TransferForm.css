@@ -11,12 +11,12 @@
   margin-bottom: 1.5rem;
   margin-top: 0;
   font-size: 2rem;
-  color: #1e1e1e;
+  color: #ffffff;
   font-weight: 600;
   text-align: center;
 }
 
-/* Dark form box */
+
 form {
   background-color: #1e1e1e;
   padding: 2rem;
@@ -24,7 +24,6 @@ form {
   color: white;
 }
 
-/* Label and input spacing */
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -36,14 +35,14 @@ form {
   color: #cccccc;
 }
 
-/* Remove incorrect font-weight value */
+
 .form-title {
   font-weight: 600;
   margin-bottom: 0.4rem;
   font-size: 2rem;
 }
 
-/* Unified inputs and textareas */
+
 input[type="text"],
 input[type="number"],
 input[type="date"],
@@ -72,7 +71,7 @@ textarea:focus {
   box-shadow: 0 0 0 2px rgba(94, 156, 255, 0.2);
 }
 
-/* Button */
+
 .transfer-button {
   background-color: #4caf50;
   color: white;
