@@ -40,7 +40,6 @@
   border-bottom: 1px solid #444;
 }
 
-/* Table headers */
 .transaction-log th {
   font-weight: 600;
   color: #dddddd;
@@ -48,23 +47,22 @@
   white-space: nowrap;
 }
 
-/* Row hover effect */
 .transaction-log tbody tr:hover {
   background-color: #2f2f2f;
 }
 
-/* Table data cells */
+
 .transaction-log td {
   color: #cccccc;
   font-size: 0.95rem;
 }
 
-/* First column style (Date/ID/etc.) */
+
 .transaction-log td:first-child {
   font-family: monospace;
 }
 
-/* Empty message styling */
+
 .transaction-log td[colspan="7"] {
   text-align: center;
   padding: 2rem;
@@ -73,7 +71,7 @@
   font-size: 1rem;
 }
 
-/* Status badges */
+
 .status-success {
   color: #28a745;
   font-weight: 600;
@@ -101,7 +99,7 @@
   display: inline-block;
 }
 
-/* Responsive table on smaller screens */
+
 @media (max-width: 768px) {
   .transaction-log table,
   .transaction-log thead,
